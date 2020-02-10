@@ -1,0 +1,14 @@
+{
+  "name": "step1",
+  "version": "1.0.0",
+  "description": "a simple app to calculate numbers that are multiples of 3, 5 and 15 and print them out",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "WZayas",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.0.1"
+  }
+}
