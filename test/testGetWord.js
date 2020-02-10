@@ -1,4 +1,4 @@
-var assert = require('assert');
+let assert = require('assert');
 const cal = require('../service/calculator')
 
 describe('calculator->Check whether the getWord method returns the correct word for the provided number', function () {
@@ -24,7 +24,7 @@ describe('calculator->Check whether the getWord method returns the correct word 
     });
     describe('#getWord(\'c\')', function () {
         it('should throw an exception when the provided value is not a valid number', function () {
-            assert.throws(() => { cal.getWord('c') }, (err) => { console.error(err); return true });
+            assert.throws(() => { cal.getWord('c') }, (err) => { return true });
         });
     });
 });
